@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 10px;
+    background: rgb(5, 113, 5)
+}
+
+.container
+{
+    width: 30rem;
+    padding: 20px 30px;
+    border-radius: 16px;
+    background: greenyellow;
+}
+
+.container h2
+{
+    font-size : 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container form .Caixa-de-conversao
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.container form .valor-de-origem , .container form .valor-de-destino
+{
+    width: 50%;
+    height: 60px;
+}
+
+.container .Caixa-de-conversao .seletor-de-entrada
+{
+    display: flex;
+    width: 70%;
+    height: 30px;
+    border: 2px solid;
+    align-items: 30%;
+    border-radius: 5px;
+    padding: 0 10px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.container .quantia-origem, .container .quantia-destino
+{
+    width: 50%;
+    height: 30px;
+}
+
+.container form input, .container .saida-quantia-destino
+{
+    display: flex;
+    width: 70%;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.container form input:hover, .saida-quantia-destino:hover
+{
+    border: 1px solid blue;
+}
+
+.container form button
+{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    background: yellow;
+}
